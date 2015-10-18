@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.example.service.TestClass;
 
-@Controller
+//@Controller
 public class HomeXmlController {
 
 	@Autowired TestClass testservice;
