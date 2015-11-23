@@ -11,11 +11,11 @@ import com.example.service.TestClass;
 
 @Configuration
 @Import({SpringMVCContext.class})
-//@PropertySource({"classpath:socialinfo.properties", "classpath:application.properties"})
-@ImportResource("classpath:/socialplaceholder.xml")
+@PropertySource({"classpath:socialinfo.properties", "classpath:application.properties"})
+//@ImportResource("classpath:/socialplaceholder.xml")
 public class ApplicationContext {
 
-	/*@Bean
+	@Bean
 	public PropertySourcesPlaceholderConfigurer propertyPlaceHolderConfigurer() {
 		return new PropertySourcesPlaceholderConfigurer();
 	}
@@ -23,5 +23,5 @@ public class ApplicationContext {
 	@Bean
 	public TestClass testClass(){
 		return new TestClass();
-	}*/
+	}
 }
