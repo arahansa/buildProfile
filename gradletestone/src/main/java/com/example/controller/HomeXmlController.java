@@ -28,4 +28,15 @@ public class HomeXmlController {
 		return "index";
 	}
 	
+	
+	@RequestMapping("/tagtest")
+	public String tagtest() {
+		return "tagtest";
+	}
+	
+	@RequestMapping("/test")
+	public String test() {
+		return "test";
+	}
+
 }

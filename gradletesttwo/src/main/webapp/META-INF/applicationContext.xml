@@ -11,7 +11,7 @@
 	<!-- <context:property-placeholder location="/WEB-INF/config/*.properties"
 		ignore-resource-not-found="false" ignore-unresolvable="false" /> -->
 	
-	<util:properties id="myXmlProps" location="/WEB-INF/config/*.properties" />
+	<util:properties id="myXmlProps" location="/WEB-INF/config/application.properties" />
 	
 	<bean id="testBean" class="com.example.service.TestClass"></bean>
 </beans>

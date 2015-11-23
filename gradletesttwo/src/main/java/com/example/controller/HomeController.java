@@ -17,10 +17,10 @@ public class HomeController {
 	@Autowired Environment env;
 	@Autowired TestClass testservice;
 	
-	@Value("#{myXmlProps['facebookKey']}")
+	//@Value("#{myXmlProps['facebookKey']}")
 	private String facebookKey;
 	
-	@Value("#{myXmlProps['db.driver']}")
+	//@Value("#{myXmlProps['db.driver']}")
     private String dbDriver;
 	
 	@RequestMapping("/")
